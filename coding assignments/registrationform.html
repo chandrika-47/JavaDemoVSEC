@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form enctype="multipart/form-data" action="registrationform.html" autocomplete="on">
+        <label>
+            FIRST NAME: <input type="text" name="fname" placeholder="No symbols" size="20" required><br><br>
+            LAST NAME: <input type="text" name="lname" placeholder="No symbols" size="20" required><br><br>
+            MOBILE: <input type="tel" name="mobno" placeholder="Enter mobile number" size="20" required><br><br>
+            EMAIL: <input type="email" name="email" placeholder="Enter the email" size="20" required><br><br>
+            PASSWORD: <input type="password" name="pwd" placeholder="Enter the password" size="20" required><br><br>
+        </label>
+
+        GENDER: 
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other<br><br>
+
+        ADDRESS:<br>
+        <textarea name="address" placeholder="Enter your Address" rows="4" cols="50" required></textarea><br><br>
+
+        Choose a number:
+        <select name="chosen_number" required>
+            <option value="">--Select--</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <body>
+    <h1 style="text-align: center;">
+    <div class="form-container">
+        
+            
+        </form>
+    </div>
+</body>
+
+
+
+</html>
